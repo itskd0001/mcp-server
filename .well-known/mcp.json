@@ -1,0 +1,11 @@
+{
+    "name": "My First MCP Server",
+    "description": "A test server that returns fake results for queries.",
+    "version": "0.1.0",
+    "endpoints": {
+        "query": {
+            "url": "/v1/queries",
+            "method": "POST"
+        }
+    }
+}
